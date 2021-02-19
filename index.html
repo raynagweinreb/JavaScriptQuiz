@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+</head>
+<body>
+    <div>
+    <header><a id= "highscores" href="scores.html"> High Scores</a></h1>
+    <h2 id="timer">Time Left:</h2></header>
+   </div>
+   <div id="game">
+       <h1>JavaScript Quiz</h1>
+       <h2>Try to answer all of the questions before time runs out!</h2>
+       <p>Answer incorecctly and you will loose 5 seconds</p>
+       <button id="start">Start Quiz</button>
+   </div>
+   <div class="questions">
+   <h3 id="gameQuestions">Questions</h3>
+   <ul id="answers">
+       <li class="Choice">A:</li>
+       <li class="Choice">B:</li>
+       <li class="Choice">C:</li>
+   </ul>
+</div>
+<div id="sumbitScore">
+    <p id="yourScore"></p>
+  <form class="newScore">
+    <label for= "new-score">Enter your name: </label>
+    <input type="text" id="user">
+    <button type="button" id="submitBtn">Enter Your Score</button>
+  </form>
+</div>
+
+</div>
+   <script src='./Assets/js/script.js'></script>
+</body>
+</html>
